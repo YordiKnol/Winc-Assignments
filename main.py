@@ -26,4 +26,3 @@ name_short = player[0] + '. ' + player[5:]
 chant = ((first_name + '! ') * (len(first_name) - 1)) + first_name + '!'
 
 good_chant = (chant[((len(chant) - 1)):] != '! ')
-print(good_chant)
